@@ -59,7 +59,7 @@ model.train(your_dataset)
 
 # Use the model to make predictions on vast amounts of data
 response = model.predict("What is the weather like today?")
-print(response)  # "It looks like it will be sunny today."
+console.log(response);  # "It looks like it will be sunny today."
 ```
 
 ## Contribution
