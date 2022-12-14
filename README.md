@@ -13,7 +13,7 @@ This is a reverse engineered powerful machine learning model designed for dialog
 
 ### Usage
 
-To use the model, simply import it into your project and call the predict() method with your input text. The model can return a response in many formats and languages.
+To use the model, simply import it into your project and call the `predict()` method with your input text. The model can return a response in many formats and languages.
 
 ```JavaScript
 const DialogueModel = require('reversed-chatgpt-model-v1.3.0-beta.1-rc.8');
@@ -47,7 +47,7 @@ console.log(response);  // "It looks like it will be sunny today."
 
 ### Training
 
-The model can be fine-tuned on your own dataset to improve performance on your specific use case. Simply provide a dataset in the appropriate format and use the train() method to fine-tune the model.
+The model can be fine-tuned on your own dataset to improve performance on your specific use case. Simply provide a dataset in the appropriate format and use the `train()` method to fine-tune the model.
 
 ```JavaScript
 const DialogueModel = require('reversed-chatgpt-model-v1.3.0-beta.1-rc.8');
